@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"Cuy+":function(t,c,e){"use strict";e.r(c);e("mXGw");var n=e("Wbzz"),o=e("Bl7J"),a=e("aD51");c.default=function(){return Object(a.c)(o.a,null,Object(a.c)("h1",null,"Contact Me"),Object(a.c)("p",null,"Need to put a contact form here."),Object(a.c)(n.a,{to:"/"},"← back to home"))}}}]);
+//# sourceMappingURL=component---src-pages-contact-js-348ec912ee76ecdba9fd.js.map

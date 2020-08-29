@@ -3,13 +3,13 @@
     "develop": {
       "plugins": [
         {
-          "name": "/home/alan/Documents/Frontend-Masters/gatsby-intro-full/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "name": "/home/alan/Documents/Frontend-Masters/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/home/alan/Documents/Frontend-Masters/gatsby-intro-full/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/home/alan/Documents/Frontend-Masters/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
             "sourceMap": false,
             "autoLabel": false,
@@ -25,13 +25,13 @@
     "develop-html": {
       "plugins": [
         {
-          "name": "/home/alan/Documents/Frontend-Masters/gatsby-intro-full/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "name": "/home/alan/Documents/Frontend-Masters/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/home/alan/Documents/Frontend-Masters/gatsby-intro-full/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/home/alan/Documents/Frontend-Masters/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
             "sourceMap": false,
             "autoLabel": false,
@@ -47,13 +47,13 @@
     "build-html": {
       "plugins": [
         {
-          "name": "/home/alan/Documents/Frontend-Masters/gatsby-intro-full/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "name": "/home/alan/Documents/Frontend-Masters/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/home/alan/Documents/Frontend-Masters/gatsby-intro-full/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/home/alan/Documents/Frontend-Masters/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
             "sourceMap": false,
             "autoLabel": false,
@@ -69,13 +69,13 @@
     "build-javascript": {
       "plugins": [
         {
-          "name": "/home/alan/Documents/Frontend-Masters/gatsby-intro-full/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
+          "name": "/home/alan/Documents/Frontend-Masters/node_modules/gatsby-plugin-mdx/node_modules/@babel/plugin-proposal-object-rest-spread/lib/index.js",
           "options": {}
         }
       ],
       "presets": [
         {
-          "name": "/home/alan/Documents/Frontend-Masters/gatsby-intro-full/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
+          "name": "/home/alan/Documents/Frontend-Masters/node_modules/@emotion/babel-preset-css-prop/dist/babel-preset-css-prop.cjs.js",
           "options": {
             "sourceMap": false,
             "autoLabel": false,
