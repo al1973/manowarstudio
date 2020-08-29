@@ -1,9 +1,6 @@
 var plugins = [{
-      plugin: require('/home/alan/Documents/Frontend-Masters/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/home/alan/Documents/Frontend-Masters/gatsby-intro-full/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
-    },{
-      plugin: require('/home/alan/Documents/Frontend-Masters/node_modules/gatsby-plugin-mdx/gatsby-ssr'),
-      options: {"plugins":[{"resolve":"/home/alan/Documents/Frontend-Masters/node_modules/gatsby-remark-images","id":"580fd6f0-a0f4-5cb7-ac28-2bea65acb525","name":"gatsby-remark-images","version":"3.3.28","pluginOptions":{"plugins":[]},"nodeAPIs":[],"browserAPIs":["onRouteUpdate"],"ssrAPIs":[]}],"defaultLayouts":{"default":"/home/alan/Documents/Frontend-Masters/gatsby-intro-full/src/components/layout.js"},"gatsbyRemarkPlugins":[{"resolve":"gatsby-remark-images"}]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
