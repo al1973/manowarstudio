@@ -1,19 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: 'Frontend Masters Gatsby Workshop',
+    title: 'Man o\' War Studio',
     description:
-      'A site we built together during a full-day Frontend Masters Gatsby workshop!',
+      'Crafts, Apparel & Jewellery from Costa Verde, Portugal',
   },
   plugins: [
     'gatsby-plugin-emotion',
     'gatsby-plugin-react-helmet',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
-    {
-      resolve: 'gatsby-source-instagram',
-      options: {
-        username: 'manowarstudio',
-      },
-    },
+    
   ],
 };
