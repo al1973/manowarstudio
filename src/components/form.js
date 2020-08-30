@@ -6,7 +6,7 @@ const Form = () => (
 <form accept-charset="UTF-8" 
       name= "contact"
       method="POST" 
-      netlify
+      data-netlify="true"
       target="_blank">
       
   <label for="inputName">Name
