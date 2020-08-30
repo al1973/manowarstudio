@@ -4,8 +4,7 @@ import React from 'react';
 const Form = () => (
    
 <form accept-charset="UTF-8" 
-      name= "form-name"
-      value= "contact"
+      name= "contact"
       method="POST" 
       data-netlify="true"
       >
