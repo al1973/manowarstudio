@@ -17,7 +17,6 @@ const Layout = ({ children }) => {
             margin: 0;
           }
 
-          /* More info: https://bit.ly/2PsCnzk */
           * + * {
             margin-top: 1rem;
           }
@@ -59,6 +58,45 @@ const Layout = ({ children }) => {
           li {
             margin-top: 0.25rem;
           }
+          form {
+            border: 1px solid #ddd;
+            border-radius: 0.25rem;
+            display: block;
+            margin-bottom: 2rem;
+            max-width: 550px;
+            padding: 1rem;
+        }
+            label,
+            input {
+              display: block;
+            }
+
+            label{
+                font-size: 0.75rem;
+                letter-spacing: 0.1em;
+                text-transform: upppercase;
+            }
+
+            input, textarea{
+            border: 1px solid #ddd;
+            border-radius: 0.25rem;
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+            padding: 0.25rem;
+            width: 100%;
+            }
+            
+        button{
+            background: darkblue;
+            border: 1px solid darkblue;
+            border-radius: 0.25rem;
+            color: white;
+            cursor: pointer;
+            display: block;
+            font-size: 1.25rem;
+            padding: 3px 2rem;
+        }
+       
         `}
       />
       <Helmet>
