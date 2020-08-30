@@ -8,7 +8,7 @@ const Form = () => (
       value= "contact"
       method="POST" 
       data-netlify="true"
-      target="_blank">
+      >
       
   <label for="inputName">Name
   <input type="text"   
