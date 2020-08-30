@@ -8,7 +8,7 @@ const Form = () => (
       method="POST" 
       data-netlify="true"
       >
-      
+      <input type="hidden" name="form-name" value="contact" />
   <label for="inputName">Name
   <input type="text"   
          name="name" 
