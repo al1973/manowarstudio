@@ -12,11 +12,9 @@ const NavLink = styled(Link)`
   margin: 0 0.5rem 0 0;
   padding: 0.25rem;
   text-decoration: none;
-
   &.current-page {
     border-bottom: 2px solid #222;
   }
-
   &:last-of-type {
     margin-right: 0;
   }
@@ -45,6 +43,7 @@ const Header = () => (
         padding: 0 1rem;
       `}
     >
+      
       <NavLink to="/" activeClassName="current-page">
         Home
       </NavLink>

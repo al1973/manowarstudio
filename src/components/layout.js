@@ -16,11 +16,9 @@ const Layout = ({ children }) => {
             box-sizing: border-box;
             margin: 0;
           }
-
           * + * {
             margin-top: 1rem;
           }
-
           html,
           body {
             margin: 0;
@@ -36,7 +34,6 @@ const Layout = ({ children }) => {
               margin-top: 0;
             }
           }
-
           h1,
           h2,
           h3,
@@ -45,16 +42,13 @@ const Layout = ({ children }) => {
           h6 {
             color: #222;
             line-height: 1.1;
-
             + * {
               margin-top: 0.5rem;
             }
           }
-
           strong {
             color: #222;
           }
-
           li {
             margin-top: 0.25rem;
           }
@@ -70,13 +64,11 @@ const Layout = ({ children }) => {
             input {
               display: block;
             }
-
             label{
                 font-size: 0.75rem;
                 letter-spacing: 0.1em;
                 text-transform: upppercase;
             }
-
             input, textarea{
             border: 1px solid #ddd;
             border-radius: 0.25rem;
