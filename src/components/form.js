@@ -1,15 +1,10 @@
 import React from 'react';
 
-
 const Form = () => (
    
-<form accept-charset="UTF-8" 
-      name= "contact"
-      method="POST" 
-      data-netlify="true"
-      >
+<form>
       <input type="hidden" name="form-name" value="contact" />
-  <label for="inputName">Name
+  <label for="inputName">Name</label>
   <input type="text"   
          name="name" 
          class="form-control" 
@@ -17,8 +12,7 @@ const Form = () => (
          placeholder="Enter your name"
          required="required">
   </input>
-  </label>
-  <label for="inputEmail" required="required">Email address
+  <label for="inputEmail" required="required">Email Address</label>
   <input type="email" 
          name="email" 
          class="form-control" 
@@ -26,15 +20,15 @@ const Form = () => (
          aria-describedby="emailHelp" 
          placeholder="Enter your email address">
   </input>
-  </label>
-  <label for="message">Your Message
-  <textarea class="form-control" 
+  <label for="message">Your Message</label>            
+  <textarea
+            class="form-control" 
             rows="5" 
             name="message" 
             id="message" 
-            placeholder="Add your message here." required="">
+            placeholder="Add your message here" required="">
   </textarea>
-  </label>
+  
   <button type="submit">Send</button>
 
 </form>

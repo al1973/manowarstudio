@@ -52,34 +52,71 @@ const Layout = ({ children }) => {
           li {
             margin-top: 0.25rem;
           }
-          form {
-            border: 1px solid #ddd;
-            border-radius: 0.25rem;
-            display: block;
-            margin-bottom: 2rem;
-            max-width: 550px;
-            padding: 1rem;
+        form {
+        display: grid;
+        place-content: center;
+        grid-gap: 0.5rem;
+        background-color: #e9f2fd;
+        padding: 1rem;
         }
-            label,
-            input {
-              display: block;
-            }
-            label{
-                font-size: 0.75rem;
-                letter-spacing: 0.1em;
-                text-transform: upppercase;
-            }
-            input, textarea{
-            border: 1px solid #ddd;
-            border-radius: 0.25rem;
-            font-size: 1rem;
-            margin-bottom: 0.75rem;
-            padding: 0.25rem;
-            width: 100%;
-            }
-            
+        
+        :root {
+          --input-border: #8b8a8b;
+          --input-focus-h: 245;
+          --input-focus-s: 100%;
+          --input-focus-l: 42%;
+        }
+        
+        input, textarea {
+          font-size: 1em;
+          font-family: inherit;
+          padding: 0.25em 0.5em;
+          background-color:white;
+          border: 2px solid var(--input-border);
+          border-radius: 4px;
+          transition: 180ms box-shadow ease-in-out;
+          margin-top: 0;
+        }
+        input:focus, textarea:focus {
+          border-color: hsl(
+            var(--input-focus-h),
+            var(--input-focus-s),
+            var(--input-focus-l)
+          );
+        }
+        input:focus, textarea:focus {
+          box-shadow: 0 0 0 3px
+            hsla(
+              var(--input-focus-h),
+              var(--input-focus-s),
+              calc(var(--input-focus-l) + 40%),
+              0.8
+            );
+          outline: 3px solid transparent;
+        }
+        input:not(textarea) {
+          line-height: 1;
+          height: 2.25rem;
+        }
+        textarea, input {
+          resize: vertical;
+        }
+        label {
+          font-size: 1rem;
+          font-weight: 500;
+          line-height: 1;
+          margin-bottom:-5px;
+        }
+        input + label {
+          margin-top: 2rem;
+        }      
+     
         button{
-            background: darkblue;
+            background: hsl(
+              var(--input-focus-h),
+              var(--input-focus-s),
+              var(--input-focus-l)
+            );
             border: 1px solid darkblue;
             border-radius: 0.25rem;
             color: white;
