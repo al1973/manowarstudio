@@ -1,58 +1,27 @@
 import React from 'react';
-import styled from '@emotion/styled';
-import { css } from '@emotion/core';
 import { Link } from 'gatsby';
-
-
-const NavLink = styled(Link)`
-  color: #222;
-  font-size: 1rem;
-  font-weight: ${props => props.fontWeight || 'normal'};
-  line-height: 1;
-  margin: 0 0.5rem 0 0;
-  padding: 0.25rem;
-  text-decoration: none;
-  &.current-page {
-    border-bottom: 2px solid #222;
-  }
-  &:last-of-type {
-    margin-right: 0;
-  }
-`;
+import headerStyles from '../components/header.module.css';
 
 const Header = () => (
-  <header
-    css={css`
-      display: flex;
-      justify-content: space-between;
-      padding: 0.5rem calc((100vw - 550px - 0.5rem) / 2);
-    `}
-  >
-    <NavLink to="/"
-     css={css`
-     margin-top: 0;
-     padding: 0 1rem;
-   `}>
-     <img src="/images/sofia-logo.jpg" alt="no logo"
-     height="160" width="160"/>
-      
-    </NavLink>
-    <nav
-      css={css`
-        margin-top: 0;
-        padding: 0 1rem;
-      `}
-    >
-      
-      <NavLink to="/" activeClassName="current-page">
-        Home
-      </NavLink>
-      <NavLink to="/about/" activeClassName="current-page">
-        About
-      </NavLink>
-      <NavLink to="/contact/" activeClassName="current-page">
+  <header className={headerStyles.header}>
+    <a className={headerStyles.logo} href="/">
+      <img
+        src="/images/sofia-logo.jpg"
+        alt="no logo"
+        height="160"
+        width="160"
+      />
+    </a>
+    <nav className={headerStyles.nav}>
+      <a
+        className={headerStyles.link}
+        href="https://www.etsy.com/shop/ManOWarStudio"
+      >
+        Shop
+      </a>
+      <a className={headerStyles.link} href="/contact/">
         Contact
-      </NavLink>
+      </a>
     </nav>
   </header>
 );

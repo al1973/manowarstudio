@@ -1,23 +1,24 @@
 import React from 'react';
-
-import { css } from '@emotion/core';
-
-
-
+import footerStyles from '../components/footer.module.css';
 const Footer = () => (
-  <footer
-    css={css`
-      font-size: 0.75rem;
-      text-align: center;
-      position: relative;
-      width: 100%;
-      padding: 1rem 0;
-    `}
-  >
-   
-    
-   &copy; Man o&apos; War Studio 2020
-   
+  <footer className={footerStyles.footer}>
+    <div className={footerStyles.more}>
+      <small>
+        <strong>CONNECT</strong>
+      </small>
+    </div>
+    <div className={footerStyles.instagram}>
+      <a href="https://www.instagram.com/manowarstudio">INSTAGRAM</a>
+    </div>
+    <div className={footerStyles.etsy}>
+      <a href="https://www.etsy.com/shop/ManOWarStudio">ETSY</a>
+    </div>
+    <div className={footerStyles.facebook}>
+      <a href="https://www.facebook.com/manowarstudio">FACEBOOK</a>
+    </div>
+    <div className={footerStyles.copyright}>
+      <small>&copy; Man o&apos; War Studio 2020</small>
+    </div>
   </footer>
 );
 

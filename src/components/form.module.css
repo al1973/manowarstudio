@@ -1,4 +1,4 @@
-.contactForm {
+form {
     border: 1px solid #ddd;
     border-radius: 0.25rem;
     display: block;
@@ -14,7 +14,7 @@
   --input-focus-l: 42%;
 }
 
-.contactInput {
+input {
   font-size: 1em;
   font-family: inherit;
   padding: 0.25em 0.5em;
@@ -24,14 +24,14 @@
   transition: 180ms box-shadow ease-in-out;
 }
 
-.contactInput:focus {
+input:focus {
   border-color: hsl(
     var(--input-focus-h),
     var(--input-focus-s),
     var(--input-focus-l)
   );
 }
-.contactInput:focus {
+input:focus {
   box-shadow: 0 0 0 3px
     hsla(
       var(--input-focus-h),
@@ -42,27 +42,27 @@
   outline: 3px solid transparent;
 }
 
-.contactInput:not(.contactTextarea) {
+input:not(textarea) {
   line-height: 1;
   height: 2.25rem;
 }
 
 
 
-.contactTextarea.contactInput {
+textarea input {
   resize: vertical;
 }
 
 
 
-.contactLabel {
+label {
   font-size: 1.125rem;
   font-weight: 500;
   line-height: 1;
   color: red;
 }
 
-.contactInput + .contactLabel {
+input + label {
   margin-top: 2rem;
 }
 
